@@ -1,0 +1,135 @@
+body{
+    /* background-color: aqua; */
+}
+*{
+    margin: 0;
+    padding:0;
+}
+.logo_img{
+    width: 50px;
+    height:50px;
+    background-color: aliceblue;
+    background-image: url(./cpp_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    display:flex;
+    padding: 0.4rem;
+    justify-content: space-around;
+ background-color: antiquewhite;
+}
+nav{
+    width:50vw;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+.linkshead{
+    text-decoration: none;
+    padding:0.6rem;
+    font-size: 1.5rem;
+}
+.search {
+    height:100%;
+    padding:0.2rem;
+    
+}
+.search input{
+    height:80%;
+   font-size: 1.3rem;
+   padding: 3px;
+    
+}
+main{
+    
+    width: 70vw;
+    
+    /* background-color: blueviolet; */
+    padding: 1.5rem;
+}
+aside{
+    box-sizing: border-box;
+   position:fixed;
+   right: 0;
+   top:8.5vh;
+    width: 25vw;
+    min-height: 70vh;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+.title{
+    
+   
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding:0.5rem;
+}
+.sect{
+    min-height: 40vh;
+    /* width:80%; */
+    /* margin:auto; */
+    /* background-color: azure; */
+    border-bottom-style:solid;
+    border-bottom-color: black;
+    border-bottom-width: 4px;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    
+}
+.sectitle{
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    /* margin-top: 1.5rem; */
+    margin-bottom: 1.2rem;
+    
+
+}
+.seccontent{
+    font-size: 1.4rem;
+    height:40%;
+    margin-bottom: 4rem;
+    
+
+}
+.asidetitle{
+    font-size: 2.1rem;
+    margin-bottom:2rem ;
+}
+aside ul{
+    display: flex;
+    flex-direction: column;
+}
+ aside ul li{
+    margin-bottom: 1.3rem;
+}
+.link{
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    color: black;
+    /* background-color: blue; */
+    text-decoration: none;
+}
+.fixed{
+
+    position: fixed;
+    /* background-color: black; */
+    top:0;
+    right:0;
+    width:100%
+}
+.highlighted{
+    color: orangered;
+}
+footer{
+    background-color:aliceblue;
+    padding:1rem;
+}
+footer h1{
+    font-size: 1.2rem;
+    text-align: center;
+}
